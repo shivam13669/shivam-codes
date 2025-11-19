@@ -20,13 +20,13 @@
     }
   },
   {
-    "name": "Weather-APP",
-    "desc": "Simple weather app built with HTML.",
-    "image": "weatherapphtml",
+    "name": "Weather App",
+    "desc": "A dynamic Weather app",
+    "image": "weatherapp_new",
     "category": "html",
     "links": {
-      "code": "",
-      "view" :""
+      "code": "https://github.com/shivam13669/Weatherappmainfile/",
+      "view" :"https://mytrueweather.vercel.app/"
     }
   },
 
