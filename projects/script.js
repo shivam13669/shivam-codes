@@ -45,7 +45,6 @@ function showProjects(projects) {
     let projectsHTML = "";
     projects.forEach(project => {
         projectsHTML += `
-        <div class="grid-item ${project.category}">
         <div class="box tilt">
       <img draggable="false" src="/assets/images/projects/${project.image}.png" alt="project" />
       <div class="content">
@@ -60,7 +59,6 @@ function showProjects(projects) {
           </div>
         </div>
       </div>
-    </div>
     </div>`
     });
     projectsContainer.innerHTML = projectsHTML;
