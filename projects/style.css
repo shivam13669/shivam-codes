@@ -157,9 +157,7 @@ header .navbar ul li a:hover{
 
 /* work section starts */
 .work{
-  /* background: #010124; */
-  background: linear-gradient(to bottom, #010136, #00003a);
-  margin-top: 5rem;
+  background: linear-gradient(to bottom, #000031, #00002c);
 }
 .work h2{
   color: #fff;
@@ -202,14 +200,12 @@ header .navbar ul li a:hover{
   margin: 2rem;
 }
 .work .box-container .box{
-  flex:1 1 30rem;
-  border-radius: .5rem;
-  box-shadow: 0 .7rem 1rem rgba(0,0,0,.3);
+  flex: 1 1 30rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   position: relative;
-  overflow:hidden;
-  height:30rem;
-  background: #fff;
-  border: none;
+  overflow: hidden;
+  height: 30rem;
 }
 .work .box-container .box img{
   height: 100%;
