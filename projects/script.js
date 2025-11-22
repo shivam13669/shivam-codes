@@ -32,10 +32,16 @@ document.addEventListener('visibilitychange',
 
 // fetch projects start
 function getProjects() {
-    return fetch("/projects/projects.json")
-        .then(response => response.json())
-        .then(data => {
-            return data
+    return fetch("./projects.json")
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            return response.json();
+        })
+        .catch(error => {
+            console.error('Error fetching projects:', error);
+            return [];
         });
 }
 

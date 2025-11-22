@@ -40,7 +40,7 @@
       "view" : ""
     }
   },
-    
+
    {
     "name": "SigmaGPT",
     "desc": "Next-gen AI assistant with advanced reasoning capabilities.",
@@ -52,8 +52,8 @@
 
     }
   },
- 
-  
+
+
   {
     "name": "AI-Career-Coach",
     "desc": "AI career guidance application built using JavaScript.",
@@ -64,6 +64,6 @@
       "view" :""
     }
   }
-  
-  
+
+
 ]
