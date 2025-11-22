@@ -535,6 +535,13 @@ header .navbar ul li a:hover {
 }
 /* skills media queries starts*/
 @media screen and (max-width: 600px) {
+  .skills-filter-buttons {
+    gap: 0.8rem;
+  }
+  .filter-btn {
+    padding: 0.5rem 1.2rem;
+    font-size: 1rem;
+  }
   .skills .container {
     padding: 0;
     margin: 0;
