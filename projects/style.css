@@ -286,9 +286,17 @@ header .navbar ul li a:hover{
   }
   .work .box-container{
     margin: 0rem;
+    flex-direction: column;
+    align-items: center;
+  }
+  .work .box-container .grid-item{
+    width: 100%;
+    display: flex;
+    justify-content: center;
   }
   .work .box-container .grid-item .box{
     width: 95% !important;
+    flex: 0 1 auto !important;
   }
 }
 
