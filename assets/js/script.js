@@ -32,7 +32,18 @@ $(document).ready(function () {
     // smooth scrolling
     $('a[href*="#"]').on('click', function (e) {
         const href = $(this).attr('href');
-        const targetElement = $(href);
+
+        // Extract anchor from href (e.g., "#about" from "/#about")
+        let selector;
+        if (href.startsWith('/#')) {
+            selector = '#' + href.split('/#')[1];
+        } else if (href.startsWith('#')) {
+            selector = href;
+        } else {
+            return;
+        }
+
+        const targetElement = $(selector);
 
         // Check if target element exists on current page
         if (targetElement.length) {
