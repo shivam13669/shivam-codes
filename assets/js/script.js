@@ -31,10 +31,20 @@ $(document).ready(function () {
 
     // smooth scrolling
     $('a[href*="#"]').on('click', function (e) {
-        e.preventDefault();
-        $('html, body').animate({
-            scrollTop: $($(this).attr('href')).offset().top,
-        }, 500, 'linear')
+        const href = $(this).attr('href');
+        const targetElement = $(href);
+
+        // Check if target element exists on current page
+        if (targetElement.length) {
+            e.preventDefault();
+            $('html, body').animate({
+                scrollTop: targetElement.offset().top,
+            }, 500, 'linear');
+        } else if (href.startsWith('/#')) {
+            // If link is to home anchor (e.g., /#about), redirect to home first
+            e.preventDefault();
+            window.location.href = href;
+        }
     });
 
     // <!-- emailjs to mail contact form data -->
