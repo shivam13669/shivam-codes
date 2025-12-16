@@ -344,8 +344,8 @@ if (typeof ScrollReveal !== 'undefined') {
     srtop.reveal('.skills .container', { interval: 200 });
     srtop.reveal('.skills .container .bar', { delay: 400 });
 
-    /* SCROLL EDUCATION */
-    srtop.reveal('.education .box', { interval: 200 });
+    /* SCROLL COURSES */
+    srtop.reveal('.courses .course-card', { interval: 200 });
 
     /* SCROLL PROJECTS */
     srtop.reveal('.work .box', { interval: 200 });
