@@ -916,10 +916,6 @@ header .navbar ul li a:hover {
   }
 }
 @media screen and (max-width: 600px) {
-  html {
-    font-size: 55%;
-  }
-
   .services-featured {
     padding: 2.5rem 5%;
   }
