@@ -333,6 +333,9 @@ if (typeof ScrollReveal !== 'undefined') {
     srtop.reveal('.about .content .box-container', { delay: 200 });
     srtop.reveal('.about .content .resumebtn', { delay: 200 });
 
+    /* SCROLL SERVICES */
+    srtop.reveal('.services-featured .service-card', { interval: 200 });
+
     /* SCROLL COURSES */
     srtop.reveal('.courses .course-card', { interval: 200 });
 
